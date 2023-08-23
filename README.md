@@ -9,8 +9,65 @@ Repositório desenvolvido para fins didáticos, com a disponibilização de mate
 [![Link do Lab](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://web.dio.me/lab/desafio-de-projeto-contribuindo-em-um-projeto-open-source-no-github/learning/913f26fd-1018-4643-b59a-6356ea77dc2e) 
 [![Link do Lab](https://img.shields.io/badge/Acesse%20o%20Lab%20na%20Plataforma-E94D5F?style=for-the-badge)](https://web.dio.me/lab/desafio-de-projeto-contribuindo-em-um-projeto-open-source-no-github/learning/913f26fd-1018-4643-b59a-6356ea77dc2e)
 
-## Objetivo
+## Objetivo.
 Aprender o básico sobre contribuição no GitHub.
+
+Instruções de Instalação :
+
+# Guia de Instalação do Visual Studio Code
+
+Este guia fornece instruções básicas para instalar o Visual Studio Code em diferentes sistemas operacionais: Windows, MacOS e Linux.
+
+## Windows:
+
+1. Acesse o site oficial do Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. Clique no botão "Download for Windows".
+3. Execute o arquivo do instalador que foi baixado.
+4. Siga as instruções do assistente de instalação, aceitando as configurações padrão ou personalizando conforme necessário.
+5. Após a instalação, o Visual Studio Code estará disponível no menu Iniciar ou na área de trabalho.
+
+## MacOS:
+
+1. Acesse o site oficial do Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. Clique no botão "Download for Mac".
+3. Abra o arquivo .dmg do Visual Studio Code que foi baixado.
+4. Arraste o ícone do Visual Studio Code para a pasta "Applications" para instalá-lo.
+5. Após a instalação, você pode encontrar o Visual Studio Code em sua pasta "Applications".
+
+## Linux (Debian/Ubuntu):
+
+1. Abra um terminal.
+2. Execute os seguintes comandos:
+
+   ```bash
+   sudo apt update
+   sudo apt install software-properties-common apt-transport-https wget
+   wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
+   echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
+   sudo apt update
+   sudo apt install code
+O Visual Studio Code será instalado em seu sistema.
+Linux (Fedora):
+Abra um terminal.
+
+Execute os seguintes comandos:
+
+bash
+Copy code
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo dnf install https://packages.microsoft.com/repos/code/stable/x86_64/code-1.59.1-1628129344.el8.x86_64.rpm
+O Visual Studio Code será instalado em seu sistema.
+
+Após a instalação, você pode iniciar o Visual Studio Code a partir do menu de aplicativos ou executando o comando "code" no terminal. Certifique-se de que as versões mencionadas nos comandos são as mais recentes no momento da sua instalação.
+
+css
+Copy code
+
+Lembre-se de que, ao adicionar este guia a um arquivo README, você pode personalizar o título, a formatação e os detalhes adicionais conforme necessário para se adequar ao seu projeto.
+
+
+
+
 
 ## Ferramentas
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
